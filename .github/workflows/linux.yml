@@ -32,5 +32,5 @@ jobs:
           context: x-tools
           file: x-tools/Dockerfile.linux-${{ matrix.flavor }}
           push: true
-          tags: ghcr.io/runshine/x-tools-${{ matrix.flavor }}:latest
+          tags: ghcr.io/runshine/x-tools-linux-${{ matrix.flavor }}:latest
 
